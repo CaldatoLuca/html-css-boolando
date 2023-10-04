@@ -14,11 +14,11 @@
   !DEBUG
   ---------
   */
-.debug .products {
+/* .debug .products {
   height: 90.625rem;
   background-color: #008000;
-}
-.debug .block {
+} */
+/* .debug .block {
   height: 43.75rem;
   background-color: saddlebrown;
   border: 4px dotted black;
@@ -32,14 +32,19 @@
   height: 2.8125rem;
   background-color: red;
   width: 100%;
-}
+} */
 
 /*
   ------------
   !TYPOGRAPHY
   ------------
   */
-
+body {
+  font-size: 0.75rem;
+}
+h4 {
+  font-size: 0.9375rem;
+}
 /*
   ----------
   !PALETTE
@@ -61,7 +66,13 @@
   margin: 0 auto;
   width: 86.25rem;
 }
-
+.discount,
+.eco {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.3125rem 0.625rem;
+}
 /*
   ---------
   !HEADER
@@ -86,6 +97,41 @@ main .products .block {
   width: calc(100% / 3 - 1.875rem);
   flex-wrap: wrap;
 }
+main .products .block .image {
+  position: relative;
+  height: 40.625rem;
+}
+main .products .block .image .heart {
+  position: absolute;
+  top: 0.625rem;
+  right: 0;
+  width: 3.125rem;
+  font-size: 1.5625rem;
+  background-color: red;
+  text-align: center;
+  padding: 0.625rem;
+}
+main .products .block .image .etiquette {
+  position: absolute;
+  left: 0;
+  bottom: 2.8125rem;
+  display: flex;
+}
+main .products .block .image .etiquette .discount {
+  width: 3.4375rem;
+  background-color: var(--bg-discount);
+  margin-right: 0.3125rem;
+}
+main .products .block .image .etiquette .eco {
+  width: 6.5625rem;
+  background-color: var(--bg-eco);
+}
+main .products .block .image img {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
 /*
   ---------
   !FOOTER 

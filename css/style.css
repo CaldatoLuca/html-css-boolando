@@ -1,0 +1,93 @@
+/* 
+---------
+!RESET
+---------
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+  ---------
+  !DEBUG
+  ---------
+  */
+.debug .products {
+  height: 90.625rem;
+  background-color: #008000;
+}
+.debug .block {
+  height: 43.75rem;
+  background-color: saddlebrown;
+  border: 4px dotted black;
+}
+.debug .image {
+  height: 40.3125rem;
+  background-color: salmon;
+  width: 100%;
+}
+.debug .info {
+  height: 2.8125rem;
+  background-color: red;
+  width: 100%;
+}
+
+/*
+  ------------
+  !TYPOGRAPHY
+  ------------
+  */
+
+/*
+  ----------
+  !PALETTE
+  ----------
+*/
+:root {
+  --bg-header: #ff6900;
+  --bg-discount: #ff0000;
+  --bg-eco: #008000;
+  --bg-footer: #1a1a1a;
+}
+
+/*
+  ---------
+  !COMMON
+  ---------
+*/
+.container {
+  margin: 0 auto;
+  width: 86.25rem;
+}
+
+/*
+  ---------
+  !HEADER
+  ---------
+  */
+
+/*
+  -------
+  !MAIN
+  -------
+*/
+main {
+  padding: 3.75rem;
+}
+main .products {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .products .block {
+  display: flex;
+  margin: 0.9375rem;
+  width: calc(100% / 3 - 1.875rem);
+  flex-wrap: wrap;
+}
+/*
+  ---------
+  !FOOTER 
+  ---------
+  */

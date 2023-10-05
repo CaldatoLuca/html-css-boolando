@@ -10,16 +10,16 @@
 }
 
 /* 
-  ---------
-  !DEBUG
-  ---------
-  */
+---------
+!DEBUG
+---------
+*/
 
 /*
-  ------------
-  !TYPOGRAPHY
-  ------------
-  */
+------------
+!TYPOGRAPHY
+------------
+*/
 body {
   font-size: 0.75rem;
 }
@@ -31,9 +31,9 @@ h6 {
 }
 
 /*
-  ----------
-  !PALETTE
-  ----------
+----------
+!PALETTE
+----------
 */
 :root {
   --bg-header: #ff6900;
@@ -46,9 +46,9 @@ footer {
   color: white;
 }
 /*
-  ---------
-  !COMMON
-  ---------
+---------
+!COMMON
+---------
 */
 .container {
   margin: 0 auto;
@@ -71,9 +71,9 @@ ul {
 }
 
 /*
-  ---------
-  !HEADER
-  ---------
+---------
+!HEADER
+---------
 */
 header {
   background-color: var(--bg-header);
@@ -110,9 +110,9 @@ nav .icons {
   justify-content: flex-end;
 }
 /*
-  -------
-  !MAIN
-  -------
+-------
+!MAIN
+-------
 */
 main {
   padding: 7.5rem 0 3.75rem 0;
@@ -189,9 +189,9 @@ main .products {
 }
 
 /*
-  ---------
-  !FOOTER 
-  ---------
+---------
+!FOOTER 
+---------
 */
 footer {
   background-color: var(--bg-footer);

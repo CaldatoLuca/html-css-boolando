@@ -121,6 +121,7 @@ main {
 main .products {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 -15px;
 }
 .products .block {
   display: flex;
